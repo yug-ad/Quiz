@@ -17,7 +17,7 @@
             min-height: 100vh;
         }
         .container {
-            width: 100%;
+            width: 500%;
             max-width: 800px;
             margin: 20px;
             padding: 20px;
