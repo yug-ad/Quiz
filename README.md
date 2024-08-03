@@ -17,13 +17,14 @@
             min-height: 100vh;
         }
         .container {
-            width: 500%;
+            width: 100%;
             max-width: 800px;
             margin: 20px;
             padding: 20px;
             background-color: #fff;
             border-radius: 12px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
         }
         h1 {
             text-align: center;
