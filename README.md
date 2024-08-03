@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #FFFFFF;
+            background-color: #D8BFAA;
             color: #333;
             margin: 0;
             padding: 0;
@@ -15,6 +15,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            box-sizing: border-box;
         }
         .container {
             width: 100%;
@@ -74,6 +75,18 @@
         .result .highlight {
             font-weight: bold;
             color: #8B4513;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .submit-button {
+                padding: 10px;
+                font-size: 14px;
+            }
+            .result p {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
@@ -177,11 +190,13 @@
                 <label>How often do your lips feel chapped or dry?</label>
                 <input type="radio" name="chappedLipsFrequency" value="frequent"> Frequently<br>
                 <input type="radio" name="chappedLipsFrequency" value="occasional"> Occasionally<br>
-                <input type="radio" name="chappedLipsFrequency" value="rare"> Rarely
+                <input type="radio" name="chappedLipsFrequency
+
+" value="rare"> Rarely
             </div>
 
             <div class="question tanning">
-                <label>How often are you exposed to the sun without protection?</label>
+                <label>How often does your skin tan when exposed to the sun?</label>
                 <input type="radio" name="tanningFrequency" value="frequent"> Frequently<br>
                 <input type="radio" name="tanningFrequency" value="occasional"> Occasionally<br>
                 <input type="radio" name="tanningFrequency" value="rare"> Rarely
